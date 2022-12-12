@@ -1,0 +1,112 @@
+[
+    {
+        "id": 0,
+        "multiple": false,
+        "soru": "Yazılıma ilk kaç yaşınızda başladınız?",
+        "cevaplar": [
+          "5-10 yaşındayken",
+          "11-17 yaşındayken",
+          "18-24 yaşındayken",
+          "25+ yaşındayken"
+        ]
+      },
+      {
+        "id": 1,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?1",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 2,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?2",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 3,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?3",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 4,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?4",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 5,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?5",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 6,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?6",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 7,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?7",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 8,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?8",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      },
+      {
+        "id": 9,
+        "multiple": false,
+        "soru": "Yazılımı nereden öğrendiniz?9",
+        "cevaplar": [
+          "Okul",
+          "Kitaplar-dergiler",
+          "Online dersler",
+          "Diğer"
+        ]
+      }
+]

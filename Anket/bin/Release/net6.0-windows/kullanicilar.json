@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "adi": "Oğulcan",
+        "soyadi": "Kocabaş",
+        "kullanici_adi": "Ainsworth",
+        "sifre": "12345"
+    },
+    {
+        "id": 1,
+        "adi": "Furkan",
+        "soyadi": "Çelik",
+        "kullanici_adi": "frukance",
+        "sifre": "12345"
+    }
+]

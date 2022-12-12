@@ -1,0 +1,109 @@
+[
+  {
+      "id": 0,
+      "multiple": 2,
+      "soru": "Cinsiyetiniz nedir?",
+      "cevaplar": [
+        "Erkek",
+        "Kadın"
+      ]
+  },
+  {
+    "id": 1,
+    "multiple": 3,
+    "soru": "Çalışma şeklinizden ve saatlerinizden ne kadar memnunsunuz?",
+    "cevaplar": [
+      "Hiç",
+      "Biraz",
+      "Çoğunlukla",
+      "Çok"
+    ]
+  },
+  {
+    "id": 2,
+    "multiple": 0,
+    "soru": "Hangi vardiya sisteminde çalışmak isterdiniz?",
+    "cevaplar": [
+      "Sürekli gündüz",
+      "Sürekli gece",
+      "Dönüşümlü vardiyalı çalışma"
+    ]
+  },
+  {
+    "id": 3,
+    "multiple": 0,
+    "soru": "Geçen hafta uyku kalitenizi bütünü ile nasıl değerlendirirsiniz?",
+    "cevaplar": [
+      "Çok iyi",
+      "Oldukça iyi",
+      "Oldukça kötü",
+      "Çok kötü"
+    ]
+  },
+  {
+    "id": 4,
+    "multiple": 0,
+    "soru": "Endişeleriniz nedeni ile uykusuzluk çekiyor musunuz?",
+    "cevaplar": [
+      "Hayır, hiç çekmiyorum",
+      "Her zamanki kadar",
+      "Her zamankinden sık",
+      "Çok sık"
+    ]
+  },
+  {
+    "id": 5,
+    "multiple": 0,
+    "soru": "Yaptığınız işe dikkatinizi verebiliyor musunuz?",
+    "cevaplar": [
+      "Her zamankinden iyi",
+      "Her zamanki kadar",
+      "Her zamankinden az",
+      "Her zamankidnen çok daha az"
+    ]
+  },
+  {
+    "id": 6,
+    "multiple": 0,
+    "soru": "İşe yaradığınızı düşünüyor musunuz?",
+    "cevaplar": [
+      "Her zamankinden iyi",
+      "Her zamanki kadar",
+      "Her zamankinden az",
+      "Her zamankidnen çok daha az"
+    ]
+  },
+  {
+    "id": 7,
+    "multiple": 0,
+    "soru": "Kendinizi keyifsiz ve durgun hissediyor musunuz?",
+    "cevaplar": [
+      "Hayır, hiç hissetmiyorum",
+      "Her zamanki kadar",
+      "Her zamankinden çok",
+      "Çok sık"
+    ]
+  },
+  {
+    "id": 8,
+    "multiple": 0,
+    "soru": "Günlük işlerinizden zevk alıyor musunuz?",
+    "cevaplar": [
+      "Her zamankinden çok",
+      "Her zamanki kadar",
+      "Her zamankinden az",
+      "Her zamankinden çok daha az"
+    ]
+  },
+  {
+    "id": 9,
+    "multiple": 0,
+    "soru": "Zorlukları halledemeyecek gibi hissediyor musunuz?",
+    "cevaplar": [
+      "Hayır, hiç hissetmiyorum",
+      "Her zamanki kadar",
+      "Her zamankinden sık",
+      "Çok sık hissediyorum"
+    ]
+  }
+]
