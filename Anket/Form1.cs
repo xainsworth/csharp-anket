@@ -100,7 +100,7 @@ namespace Anket
             }
             else
             {
-                MessageBox.Show("Kullanýcý adý veya þifre yanlýþ.", "Giriþ Baþarýsýz", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Kullanıcı adı veya şifre yanlış.", "Giriş Başarısız", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -185,8 +185,8 @@ namespace Anket
                     lb.Items.Clear();
                     groupBox1.Hide();
                     label10.Text = "Test Bitti.";
-                    label11.Text = "Çýkmak için alttaki butona basýn.";
-                    button5.Text = "Çýkýþ";
+                    label11.Text = "Çıkmak için alttaki butona basın.";
+                    button5.Text = "Çıkıþ";
                     button5.Location = new Point(32, 200);
                     panel3.Size = new Size(516, 300);
                     Size = new Size(516, 300);
@@ -229,7 +229,7 @@ namespace Anket
                 kullanicilar.Add(yenikullanici);
                 string jsonobj = JsonConvert.SerializeObject(kullanicilar);
                 File.WriteAllText(yol, jsonobj);
-                MessageBox.Show("Kullanýcý baþarýyla oluþturuldu. Giriþ ekranýna gidiliyor.", "Baþarýlý", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Kullanıcı başarıyla oluşturuldu. Giriş ekranına gidiliyor.", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 panel2.Hide();
                 Size = panel1.Size;
                 panel1.Show();
@@ -237,7 +237,7 @@ namespace Anket
             }
             else
             {
-                MessageBox.Show("Bu kullanýcý adý mevcut. Lütfen baþka kullanýcý adý seçin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Bu kullanıcı adı mevcut. Lütfen başka kullanıcı adı seçin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -268,7 +268,7 @@ namespace Anket
             ws.Row(1).Style.Font.Bold = true;
             ws.Cell(x, y).Style.Fill.BackgroundColor = XLColor.FromArgb(0xffd7d7);
             ws.Column(y).Width = 21;
-            ws.Cell(x, y).Value = "Ýsim";
+            ws.Cell(x, y).Value = "İsim";
             for (int i = 0; i < sorular.Count; i++)
             {
                 ws.Cell(x, y + i + 1).Style.Fill.BackgroundColor = XLColor.FromArgb(0xffd7d7);
@@ -303,7 +303,7 @@ namespace Anket
             }
 
             workbook.SaveAs("anket.xlsx");
-            MessageBox.Show("Excel dosyasý baþarýyla oluþturuldu.", "Baþarýlý", MessageBoxButtons.OK);
+            MessageBox.Show("Excel dosyası başarıyla oluþturuldu.", "Başarılı", MessageBoxButtons.OK);
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -359,7 +359,7 @@ namespace Anket
             string yeniAnket_json = JsonConvert.SerializeObject(yenianket);
             File.WriteAllText(yol2, yeniAnket_json);
             File.WriteAllText(yol3, "[]");
-            MessageBox.Show("Yeni anketiniz baþarýyla oluþturuldu. Eskisinin yedeði alýndý. Programdan çýkýþ yapýlýyor.", "Baþarýlý", MessageBoxButtons.OK);
+            MessageBox.Show("Yeni anketiniz başarıyla oluşturuldu. Eskisinin yedeği alındı. Programdan çıkış yapılıyor.", "Başarılı", MessageBoxButtons.OK);
             Environment.Exit(0);
         }
 
